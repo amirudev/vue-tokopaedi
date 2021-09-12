@@ -1,27 +1,3 @@
-// import { createApp } from 'vue'
-// import Vuex from 'vuex'
-// import App from './App.vue'
-// import 'es6-promise/auto'
-
-// import router from './router/index.js'
-
-// const store = new Vuex.Store({
-//   state: {
-//     count: 0
-//   },
-//   mutations: {
-//     increment (state) {
-//       state.count++
-//     }
-//   }
-// })
-
-// const app = createApp(App)
-// app.use(router)
-// app.use(Vuex)
-// app.use(store)
-// app.mount('#app')
-
 import { createApp } from 'vue'
 import Vuex from 'vuex'
 import 'es6-promise/auto'

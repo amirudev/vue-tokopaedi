@@ -15,7 +15,7 @@
                     </button>
                     <img :src="slideshowAssetImage[currentSlideshowIndex]" alt="Slideshow" style="height: 100%; width: 100%; object-fit: cover;" id="slideshow-banner-image">
                 </div>
-                <card-product :title="products[0].name" :image="products[0].image" :price="products[0].price" :normalPrice="products[0].normalPrice" :id="products[0].id"/>
+                <card-product class="hidden md:block" :title="products[0].name" :image="products[0].image" :price="products[0].price" :normalPrice="products[0].normalPrice" :id="products[0].id"/>
             </div>
         </section>
         <article class="container">
